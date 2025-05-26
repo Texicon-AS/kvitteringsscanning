@@ -1,0 +1,20 @@
+syntax = "proto3";
+package ner;
+
+service Prediction {
+    rpc predict (ReceiptDataRequest) returns (PredictedDataReply);
+}
+
+message ReceiptDataRequest {
+    repeated string items =1;
+}
+
+message IngredientData {
+    string ingredient = 1;
+    string groups = 2;
+    string quantity = 3;
+}
+
+message PredictedDataReply {
+    repeated IngredientData ingredients = 1;
+}

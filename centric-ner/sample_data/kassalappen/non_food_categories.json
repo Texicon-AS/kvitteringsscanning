@@ -1,0 +1,458 @@
+[
+  {
+    "id": 16,
+    "name": "Barneprodukter"
+  },
+  {
+    "id": 17,
+    "name": "Babypleie"
+  },
+  {
+    "id": 18,
+    "name": "Våtservietter"
+  },
+  {
+    "id": 51,
+    "name": "Hus & hjem"
+  },
+  {
+    "id": 52,
+    "name": "Klesvask"
+  },
+  {
+    "id": 53,
+    "name": "Vaskemiddel"
+  },
+  {
+    "id": 118,
+    "name": "Personlige artikler"
+  },
+  {
+    "id": 121,
+    "name": "Tanntrråd"
+  },
+  {
+    "id": 127,
+    "name": "Tannbørste"
+  },
+  {
+    "id": 172,
+    "name": "Fyrstikker"
+  },
+  {
+    "id": 201,
+    "name": "Oppvaskmiddel"
+  },
+  {
+    "id": 221,
+    "name": "Kioskvarer"
+  },
+  {
+    "id": 223,
+    "name": "Aviser"
+  },
+  {
+    "id": 241,
+    "name": "Avfallssekker"
+  },
+  {
+    "id": 242,
+    "name": "Tennbriketter"
+  },
+  {
+    "id": 256,
+    "name": "Plaster"
+  },
+  {
+    "id": 297,
+    "name": "Rengjøringsmiddel"
+  },
+  {
+    "id": 314,
+    "name": "Kattemat"
+  },
+  {
+    "id": 323,
+    "name": "Vaskeredskaper"
+  },
+  {
+    "id": 328,
+    "name": "Toalettpapir"
+  },
+  {
+    "id": 338,
+    "name": "WC-rens"
+  },
+  {
+    "id": 347,
+    "name": "Såper"
+  },
+  {
+    "id": 361,
+    "name": "Bakepapir"
+  },
+  {
+    "id": 364,
+    "name": "Lighter"
+  },
+  {
+    "id": 367,
+    "name": "Tøymykner"
+  },
+  {
+    "id": 372,
+    "name": "Kluter"
+  },
+  {
+    "id": 375,
+    "name": "Intimvask"
+  },
+  {
+    "id": 379,
+    "name": "Barberpleie"
+  },
+  {
+    "id": 398,
+    "name": "Bind"
+  },
+  {
+    "id": 408,
+    "name": "Tørkerull"
+  },
+  {
+    "id": 409,
+    "name": "Bomullspinner"
+  },
+  {
+    "id": 428,
+    "name": "Vindusvask"
+  },
+  {
+    "id": 443,
+    "name": "Truseinnlegg"
+  },
+  {
+    "id": 449,
+    "name": "Sminkefjerner"
+  },
+  {
+    "id": 474,
+    "name": "Hundemat"
+  },
+  {
+    "id": 478,
+    "name": "Vaselin"
+  },
+  {
+    "id": 482,
+    "name": "Stekepose"
+  },
+  {
+    "id": 503,
+    "name": "Neglelakkfjerner"
+  },
+  {
+    "id": 505,
+    "name": "Bomullpads"
+  },
+  {
+    "id": 510,
+    "name": "Intimservietter"
+  },
+  {
+    "id": 517,
+    "name": "Munnskyll"
+  },
+  {
+    "id": 523,
+    "name": "Deodorant"
+  },
+  {
+    "id": 532,
+    "name": "Tamponger"
+  },
+  {
+    "id": 542,
+    "name": "Bodylotion"
+  },
+  {
+    "id": 567,
+    "name": "Kattesand"
+  },
+  {
+    "id": 576,
+    "name": "Balsam"
+  },
+  {
+    "id": 580,
+    "name": "Shampo"
+  },
+  {
+    "id": 589,
+    "name": "Plastfolie"
+  },
+  {
+    "id": 593,
+    "name": "Hårgele"
+  },
+  {
+    "id": 596,
+    "name": "Aluminiumsfolie"
+  },
+  {
+    "id": 608,
+    "name": "Smokker"
+  },
+  {
+    "id": 630,
+    "name": "Fuglemat"
+  },
+  {
+    "id": 690,
+    "name": "Matpapir"
+  },
+  {
+    "id": 730,
+    "name": "Bleier"
+  },
+  {
+    "id": 733,
+    "name": "Papirlommetørkler"
+  },
+  {
+    "id": 742,
+    "name": "Tåteflaske"
+  },
+  {
+    "id": 743,
+    "name": "Neglelakk"
+  },
+  {
+    "id": 746,
+    "name": "Sokker"
+  },
+  {
+    "id": 748,
+    "name": "Undertøy"
+  },
+  {
+    "id": 768,
+    "name": "Babyshampo"
+  },
+  {
+    "id": 810,
+    "name": "Hårspray"
+  },
+  {
+    "id": 843,
+    "name": "Tape"
+  },
+  {
+    "id": 878,
+    "name": "Skrivebok"
+  },
+  {
+    "id": 893,
+    "name": "Gummistrikk"
+  },
+  {
+    "id": 906,
+    "name": "Konvolutter"
+  },
+  {
+    "id": 907,
+    "name": "Barberblader"
+  },
+  {
+    "id": 912,
+    "name": "Peiskubbe"
+  },
+  {
+    "id": 923,
+    "name": "Lim"
+  },
+  {
+    "id": 926,
+    "name": "Barberhøvel"
+  },
+  {
+    "id": 957,
+    "name": "Kakelys"
+  },
+  {
+    "id": 969,
+    "name": "Mellomleggspapir"
+  },
+  {
+    "id": 977,
+    "name": "Hårfarge"
+  },
+  {
+    "id": 978,
+    "name": "Syttende mai-artikler"
+  },
+  {
+    "id": 992,
+    "name": "Strømper"
+  },
+  {
+    "id": 1005,
+    "name": "Plantejord"
+  },
+  {
+    "id": 1008,
+    "name": "Penn"
+  },
+  {
+    "id": 1015,
+    "name": "Luftfrisker"
+  },
+  {
+    "id": 1061,
+    "name": "Babyolje"
+  },
+  {
+    "id": 1080,
+    "name": "Tusj"
+  },
+  {
+    "id": 1109,
+    "name": "Ballonger"
+  },
+  {
+    "id": 1121,
+    "name": "Kondomer"
+  },
+  {
+    "id": 1130,
+    "name": "Babysåpe"
+  },
+  {
+    "id": 1171,
+    "name": "Babypudder"
+  },
+  {
+    "id": 1197,
+    "name": "Klesrulle"
+  },
+  {
+    "id": 1212,
+    "name": "Poseklemme"
+  },
+  {
+    "id": 1216,
+    "name": "Ammeinnlegg"
+  },
+  {
+    "id": 1250,
+    "name": "Tørrshampo"
+  },
+  {
+    "id": 1291,
+    "name": "Smekke"
+  },
+  {
+    "id": 1568,
+    "name": "Badebleier"
+  },
+  {
+    "id": 1744,
+    "name": "Bøker"
+  },
+  {
+    "id": 1907,
+    "name": "Blyant"
+  },
+  {
+    "id": 2308,
+    "name": "Serpentiner"
+  },
+  {
+    "id": 2333,
+    "name": "Dekkstift"
+  },
+  {
+    "id": 2449,
+    "name": "Hårkur"
+  },
+  {
+    "id": 2557,
+    "name": "Hårfjerningsprodukter"
+  },
+  {
+    "id": 2747,
+    "name": "Foundation"
+  },
+  {
+    "id": 4465,
+    "name": "Bleieposer"
+  },
+  {
+    "id": 4466,
+    "name": "Gulpeklut"
+  },
+  {
+    "id": 4485,
+    "name": "Plantenæring"
+  },
+  {
+    "id": 5081,
+    "name": "Solbriller"
+  },
+  {
+    "id": 5097,
+    "name": "Busker og trær"
+  },
+  {
+    "id": 5098,
+    "name": "Potteplanter"
+  },
+  {
+    "id": 5100,
+    "name": "Blomsterfrø"
+  },
+  {
+    "id": 5101,
+    "name": "Blomsterløk"
+  },
+  {
+    "id": 5102,
+    "name": "Blomsterpotter"
+  },
+  {
+    "id": 5103,
+    "name": "Uteplanter"
+  },
+  {
+    "id": 5105,
+    "name": "Blomster"
+  },
+  {
+    "id": 5167,
+    "name": "Korrekturlakk"
+  },
+  {
+    "id": 5180,
+    "name": "Tegnestifter"
+  },
+  {
+    "id": 5182,
+    "name": "Binders"
+  },
+  {
+    "id": 5237,
+    "name": "Juleartikler"
+  },
+  {
+    "id": 5276,
+    "name": "Penal"
+  },
+  {
+    "id": 5299,
+    "name": "Lue"
+  },
+  {
+    "id": 5309,
+    "name": "Skjerf"
+  }
+]

@@ -1,0 +1,51 @@
+# FIXME: explore how using the belwo coding-patterns
+# arr_matches = []  # Collect data of matched sentences to be visualized
+# def __collect_sents(label, matcher, doc, i, matches):
+#   #print("matcher==", matcher.vocab);
+#   #help(matcher);
+#   #assert(False);
+#   match_id, start, end = matches[i]
+#   print("... ", nlp.vocab.strings[match_id]);
+#   #print("label=", matcher.label);
+#   #print("label=", matcher.label);
+#   span = doc[start:end]  # Matched span
+#   sent = span.sent  # Sentence containing matched span
+#   # Append mock entity for match in displaCy style to arr_matches
+#   # get the match span by ofsetting the start and end of the span with the
+#   # start and end of the sentence in the doc
+#   print("\t(match)", sent.text, "; subset=", span.text);
+#   #!
+#   start = span.start_char - sent.start_char;
+#   end   = span.end_char - sent.start_char;
+#   #!
+#   match_ents = [{
+#     "start": start,
+#     "end": end,
+#     "label": label,
+#   }]
+#   #!
+#   #! Test if text already contains a match:
+#   for obj in arr_matches:
+#     if(obj["text"] == sent.text): # FIXME: for the below ... why is the text concantedna muliple tiems (in the results)? <-- to symbolzie pattern-voerlaps (ie, an idneited=meanigufl feature)?
+#       isExtended = False;
+#       for o in obj["ents"]:
+#         prev = [o["start"], o["end"]];
+#         if( (start < prev[0]) or (end > prev[1])):
+#           isExtended = True;
+#       if(isExtended):
+#         obj["ents"] += match_ents; #! ie, then extend exiintg
+#       #!
+#       #assert(False);
+#       return;
+#   arr_matches.append({"text": sent.text, "ents": match_ents})
+#   #if(arr_matches_doc != None):
+#   #doc = nlp.make_doc(word)   #! Note: documetnation for class="doc" is found at [https://spacy.io/api/doc]
+
+# def __entryOf_db(matcher, doc, i, matches):
+#   return __collect_sents("database", matcher, doc, i, matches)
+# def __entryOf_years(matcher, doc, i, matches):
+#   return __collect_sents("MATCH", matcher, doc, i, matches)
+
+matcher.add("DatabaseIs", arr_patterns, on_match=__entryOf_db)  # add pattern
+matcher.add("NumberRange", arr_patterns, on_match=__entryOf_years)  # add pattern
+#productString = "Mills Peanut Butter 350g"
