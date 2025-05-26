@@ -1,0 +1,43 @@
+syntax = "proto3";
+import "common/common.proto";
+package inventory.scan_receipt;
+
+// Scan a receipt to add all the items into your inventory
+message Request {
+  repeated OcrItem items = 1;
+}
+
+// Information about the scanned items
+message Response {
+  repeated FuzzyMatchOptions receipt_entries = 1;
+}
+
+// A single item scanned from the receipt using OCR
+message OcrItem {
+  // scanner output used to match against real products
+  string name_query = 1;
+  // 100 = 1 kr, 10 000 = 100 kr
+  // not currently used for anything
+  common.Price price = 2;
+  // amount of `unit`
+  int32 amount = 3;
+  // "gram", "milliliter" or "piece"
+  string unit = 4;
+
+  // Whether the item is priced by weight
+  bool is_priced_by_weight = 5;
+}
+
+// Contains a list of possible product options for a scanned item
+message FuzzyMatchOptions {
+  repeated ItemOption options = 1;
+}
+
+// A possible product option for a scanned item
+message ItemOption {
+  int32 distance = 1;
+  string product_id = 2;
+  string product_name = 3;
+  string unit = 4;
+  uint32 amount = 5;
+}
